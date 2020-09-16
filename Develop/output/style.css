@@ -1,0 +1,60 @@
+body {
+    background: 
+    repeating-linear-gradient(
+        45deg,
+        red 0 20px,
+        purple 20px 50px,
+        transparent 50px 70px,
+        pink 70px 90px
+    ),
+    repeating-linear-gradient(
+        90deg,
+        red 0 10px,
+        purple 10px 20px,
+        blue 20px 60px,
+        yellow 60px 90px
+    )
+}
+
+h1 {
+    background-color: thistle;
+    border-radius: 100%;
+    text-shadow: gold 5px 1px;
+}
+
+.jumbotron {
+    background: 
+    repeating-radial-gradient(
+        circle,
+        red 0 20px,
+        purple 20px 50px,
+        transparent 50px 70px,
+        pink 70px 90px
+    ),
+    repeating-linear-gradient(
+        0deg,
+        red 0 10px,
+        purple 10px 20px,
+        blue 20px 60px,
+        yellow 60px 90px
+    )
+}
+
+.team-area {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.card {
+    border: double black 5px;
+    background-color: thistle;
+}
+
+@media screen and (max-width: 350px) {
+    .card {
+        width: 100%;
+    }
+    .card-title {
+        text-align: center;
+    }
+}

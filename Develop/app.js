@@ -132,5 +132,4 @@ function init() {
             if (err) throw err;
         })
     })
-    console.log(team)
 }
